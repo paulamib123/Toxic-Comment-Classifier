@@ -22,10 +22,14 @@ The project uses the **Jigsaw Toxic Comment Classification Dataset** (available 
 - **Features**: 6 toxicity categories (binary labels)
 - **Challenge**: Highly imbalanced dataset with significantly more non-toxic comments
   
-![Distribution of labels](figures/toxicity-distribution.jpg)
+
+<img src="figures/toxicity-distribution.jpg" width="300">
+
 *Figure 1: Distribution of labels*
 
-![Imbalance in dataset](figures/counts-comments.jpg)
+
+<img src="figures/counts-comments.jpg" width="300">
+
 *Figure 2: Imbalance in toxic and non toxic comments*
 
 ### Dataset Statistics
