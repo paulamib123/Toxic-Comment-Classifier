@@ -21,6 +21,12 @@ The project uses the **Jigsaw Toxic Comment Classification Dataset** (available 
 - **Size**: 172,057 total comments
 - **Features**: 6 toxicity categories (binary labels)
 - **Challenge**: Highly imbalanced dataset with significantly more non-toxic comments
+  
+![Distribution of labels](figures/toxicity-distribution.jpg)
+*Figure 1: Distribution of labels*
+
+![Imbalance in dataset](figures/counts-comments.jpg)
+*Figure 2: Imbalance in toxic and non toxic comments*
 
 ### Dataset Statistics
 - Maximum comment length: 2,321 words
@@ -93,11 +99,8 @@ This highlights the importance of bias detection and mitigation in NLP models.
 - **Bias Mitigation**: Implement fairness-aware training techniques
 - **Real-time Deployment**: Optimize for production environments
 
-## ⚠️ Important Notes
-
-- **Ethical Use**: This model is intended for research and content moderation purposes
-- **Bias Awareness**: Users should be aware of potential demographic biases in predictions
-- **Continuous Monitoring**: Regular evaluation recommended when deployed in production
+## Important Notes
+This model is intended for research and content moderation purposes
 
 ## 📄 License
 
