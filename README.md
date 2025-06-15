@@ -75,7 +75,7 @@ The project uses the **Jigsaw Toxic Comment Classification Dataset** (available 
 | Insult        | 0.75   | 0.75 |
 | Identity Hate | 0.55   | 0.62 |
 
-## 🔍 Error Analysis
+## Error Analysis
 
 ### Model Strengths
 - **DistilBERT** successfully identifies:
