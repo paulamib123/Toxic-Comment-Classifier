@@ -55,10 +55,14 @@ The project uses the **Jigsaw Toxic Comment Classification Dataset** (available 
 
 ## Results
 
-| Model | ROC-AUC | Micro Avg Recall | Micro Avg F1 |
-|-------|---------|------------------|--------------|
-| Logistic Regression | 0.71 | 0.69 | 0.76 |
-| DistilBERT | 0.94 | 0.82 | 0.80 |
+| Label         | Recall | F1   |
+|---------------|--------|------|
+| Toxic         | 0.93   | 0.89 |
+| Severe Toxic  | 0.53   | 0.40 |
+| Obscene       | 0.80   | 0.80 |
+| Threat        | 0.57   | 0.58 |
+| Insult        | 0.75   | 0.75 |
+| Identity Hate | 0.55   | 0.62 |
 
 ### Detailed Performance Metrics
 
