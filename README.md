@@ -53,9 +53,20 @@ The project uses the **Jigsaw Toxic Comment Classification Dataset** (available 
 - **Optimizer**: AdamW
 - **Performance**: ROC-AUC = 0.94
 
+### Hardware Requirements
+- GPU used for DistilBERT training
+- Training time: ~32 minutes (5 epochs on MPS GPU)
+
 ## Results
 
-| Label         | Recall | F1   |
+### Detailed Performance Metrics
+| Model | ROC-AUC | Micro Avg Recall | Micro Avg F1 |
+|-------|---------|------------------|--------------|
+| Logistic Regression | 0.71 | 0.69 | 0.76 |
+| DistilBERT | 0.94 | 0.82 | 0.80 |
+
+**DistilBERT Model Performance by Category:**
+| Category         | Recall | F1   |
 |---------------|--------|------|
 | Toxic         | 0.93   | 0.89 |
 | Severe Toxic  | 0.53   | 0.40 |
@@ -63,20 +74,6 @@ The project uses the **Jigsaw Toxic Comment Classification Dataset** (available 
 | Threat        | 0.57   | 0.58 |
 | Insult        | 0.75   | 0.75 |
 | Identity Hate | 0.55   | 0.62 |
-
-### Detailed Performance Metrics
-
-**DistilBERT Model Performance by Category:**
-- Toxic: Recall 0.93, F1 0.89
-- Severe Toxic: Recall 0.53, F1 0.40
-- Obscene: Recall 0.80, F1 0.80
-- Threat: Recall 0.57, F1 0.58
-- Insult: Recall 0.75, F1 0.75
-- Identity Hate: Recall 0.55, F1 0.62
-
-### Hardware Requirements
-- GPU used for DistilBERT training
-- Training time: ~32 minutes (5 epochs on MPS GPU)
 
 ## 🔍 Error Analysis
 
